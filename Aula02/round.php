@@ -1,11 +1,10 @@
 <?php
 
-$float = round(1.3);
-$float = round(1.3,1);
-$float = round(1.333333, 1);
-$float = round(1.353333, 1);
-$float = round(1.333333, 2);
-$float = round(1.333333, 2, PHP_ROUND_HALF_UP);
+$float = round(6.5); //7
+$float = round(6.4); //6
+$float = round(6.44, 1); //6.4
+$float = round(6.45, 1); //6.5
+$float = round(6.45 , 1, PHP_ROUND_HALF_DOWN); //6.4
 
 echo $float;
 
